@@ -38,3 +38,19 @@ Here, the inset shows the detailed plot of the initial evolution of the star.
 
 Temperature vs Density profile over radius:
 ![Temperature vs Density](figures_as2/1_TvsD.png)
+
+Written answers to the questions:
+
+`2.b)`:
+  Smaller (B-V) value indicates a bluer (hotter) star whereas a larger (B-V) value indicates a redder (cooler) star. Therefore, As Temperature increases, the (B-V) value decreases. The (B-V) value increases from left to right in the HR diagram given below.
+
+  As Luminosity increases, the absolute magnitude decreases. Therefore, the absolute magnitude increases from top to bottom in the HR diagram given below.
+
+  ![HR Diagram](figures_as2/1_HRplot.png)
+
+`2.c)`: The spectral type of your star on the main sequence is F0.
+
+`2.d)`, `2.e)`, `2.f)`: The answers are not relevant since the He burning condition had failed in simulations.
+
+
+
