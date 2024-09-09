@@ -46,7 +46,7 @@ Written answers to the questions:
 
   As Luminosity increases, the absolute magnitude decreases. Therefore, the absolute magnitude increases from top to bottom in the HR diagram given below.
 
-  ![HR Diagram](figures_as2/1_HRplot.png)
+  ![HR Diagram](figures_as2/1_HRplot2_edited.png)
 
 `2.c)`: The spectral type of your star on the main sequence is F0.
 
