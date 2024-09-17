@@ -6,9 +6,23 @@
 
 This repository contains the MESA star simulations and results for the P463/P763 course. The simulations were done using the MESA stellar evolution code. The simulations were done for various parameters as required by the course. The results are presented in the form of plots.
 
-## Assignment 2
+## Table of Contents
+- [MESA Star simulations and Results](#mesa-star-simulations-and-results)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+  - [Assignment 5](#assignment-5)
+  - [Assignment 6](#assignment-6)
+    - [a. log$_{10}(\\rho)$ vs log$_{10}(r/R)$ profile](#a-log10rho-vs-log10rr-profile)
+    - [b. log$_{10}(T)$ vs log$_{10}(r/R)$ profile](#b-log10t-vs-log10rr-profile)
+    - [c. Mass $m(r)$ vs $r/R$ profile](#c-mass-mr-vs-rr-profile)
+    - [d. Luminosity $l(r)$ vs $r/R$ profile](#d-luminosity-lr-vs-rr-profile)
+    - [e. Mass fractions X, Y, Z vs $r/R$ profile](#e-mass-fractions-x-y-z-vs-rr-profile)
+    - [f. (P$\_rad$)/P vs $r/R$ profile](#f-p_radp-vs-rr-profile)
+    - [g. ($\\nabla - \\nabla\_{ad}$) vs $r/R$ profile](#g-nabla---nabla_ad-vs-rr-profile)
 
-The assignment 2 required the following simulations to be done:
+## Assignment 5
+
+The assignment 5 required the following simulations to be done:
 ```fortran
 initial mass = 0.5 Msun
 initial metallicity = 0.02
@@ -28,16 +42,16 @@ max_age = 50.0d9
 The simulation was done for the above parameters and the results are presented in the form of plots.
 
 HR Diagram:
-![HR Diagram](figures_as2/1_HRplot.png)
+![HR Diagram](figures_as5/1_HRplot.png)
 The constant contours of the HR diagram are also shown in the plot.
 
 Evolution of mass with time:
-![Mass vs Time](figures_as2/1_AgevsMass.png)
+![Mass vs Time](figures_as5/1_AgevsMass.png)
 
 Here, the inset shows the detailed plot of the initial evolution of the star.
 
 Temperature vs Density profile over radius:
-![Temperature vs Density](figures_as2/1_TvsD.png)
+![Temperature vs Density](figures_as5/1_TvsD.png)
 
 Written answers to the questions:
 
@@ -46,11 +60,56 @@ Written answers to the questions:
 
   As Luminosity increases, the absolute magnitude decreases. Therefore, the absolute magnitude increases from top to bottom in the HR diagram given below.
 
-  ![HR Diagram](figures_as2/1_HRplot2_edited.png)
+  ![HR Diagram](figures_as5/1_HRplot2_edited.png)
 
 `2.c)`: The spectral type of your star on the main sequence is F0.
 
 `2.d)`, `2.e)`, `2.f)`: The answers are not relevant since the He burning condition had failed in simulations.
 
+## Assignment 6
 
+The assignment 6 requires the same simulations as assignment 5 but various profiles are to be plotted. The simulations were done for the following parameters:
+```fortran
+initial mass = 0.5 Msun
+initial metallicity = 0.02
+initial helium fraction = 0.28
+stop_at_phase_He_Burn = .true.
+cool_wind_RGB_scheme = 'Reimers'
+Reimers_scaling_factor = 0.7d0
+cool_wind_AGB_scheme = 'Blocker'
+Blocker_scaling_factor = 0.15d0
+```
+As the mass of the star is 0.5 Msun, the star does not reach the He burning phase. Therefore, the simulation was done with an additional max_age condition:
+```fortran
+max_age = 2.0d10
+```
 
+Both the intial profile ($t = 1^{-5}$ years) and final profile ($t = 2^{10}$ years) are plotted for the following profiles:
+
+### a. log$_{10}(\rho)$ vs log$_{10}(r/R)$ profile
+   
+  ![Density vs Radius](figures_as6/3_logrho_vs_logrR.png)
+
+### b. log$_{10}(T)$ vs log$_{10}(r/R)$ profile
+   
+  ![Temperature vs Radius](figures_as6/3_logT_vs_logrR.png)
+
+### c. Mass $m(r)$ vs $r/R$ profile
+   
+  ![Mass vs Radius](figures_as6/3_m_vs_rR.png)
+
+### d. Luminosity $l(r)$ vs $r/R$ profile
+
+  ![Luminosity vs Radius](figures_as6/3_L_vs_rR.png)
+
+### e. Mass fractions X, Y, Z vs $r/R$ profile
+
+  ![Mass fractions vs Radius](figures_as6/3_XYZ_vs_rR.png)
+
+### f. (P$_rad$)/P vs $r/R$ profile
+
+  ![Pressure vs Radius](figures_as6/3_Prad_div_P_vs_rR.png)
+
+### g. ($\nabla - \nabla_{ad}$) vs $r/R$ profile
+
+  ![Nabla vs Radius](figures_as6/3_grad_sub_gradad_vs_rR.png)
