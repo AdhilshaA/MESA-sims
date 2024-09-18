@@ -17,7 +17,7 @@ This repository contains the MESA star simulations and results for the P463/P763
     - [c. Mass $m(r)$ vs $r/R$ profile](#c-mass-mr-vs-rr-profile)
     - [d. Luminosity $l(r)$ vs $r/R$ profile](#d-luminosity-lr-vs-rr-profile)
     - [e. Mass fractions X, Y, Z vs $r/R$ profile](#e-mass-fractions-x-y-z-vs-rr-profile)
-    - [f. ($P\_{\\text{rad}}$/P) vs $r/R$ profile](#f-p_textradp-vs-rr-profile)
+    - [f. ($P\_{\\text{rad}}/P$) vs $r/R$ profile](#f-p_textradp-vs-rr-profile)
     - [g. ($\\nabla - \\nabla\_{ad}$) vs $r/R$ profile](#g-nabla---nabla_ad-vs-rr-profile)
 
 ## Assignment 5
@@ -131,11 +131,11 @@ Both the intial profile ($t = 1^{-5}$ years) and final profile ($t = 2^{10}$ yea
 
   The X and Y values are almost constant in the outer layers of the star as most of the nuclear reactions are happening in the core.
 
-### f. ($P_{\text{rad}}$/P) vs $r/R$ profile
+### f. ($P_{\text{rad}}/P$) vs $r/R$ profile
 
   ![Pressure vs Radius](figures_as6/3_Prad_div_P_vs_rR.png)
 
-  As the the temperature in low-mass stars is not high enough to generate large amounts of radiation pressure, the radiation pressure is negligible compared to the gas pressure. The order of values of ($P_\text{rad}$/P) is very small (order of $10^{-4}$) as expected.
+  As the the temperature in low-mass stars is not high enough to generate large amounts of radiation pressure, the radiation pressure is negligible compared to the gas pressure. The order of values of ($P_\text{rad}/P$) is very small (order of $10^{-4}$) as expected.
 
   <!-- The radiation pressure increases outside the core due to the radiation generated in the core. -->
 
