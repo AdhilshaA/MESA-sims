@@ -12,8 +12,8 @@ This repository contains the MESA star simulations and results for the P463/P763
   - [Table of Contents](#table-of-contents)
   - [Assignment 5](#assignment-5)
   - [Assignment 6](#assignment-6)
-    - [a. log$_{10}(\\rho)$ vs log$_{10}(r/R)$ profile](#a-log10rho-vs-log10rr-profile)
-    - [b. log$_{10}(T)$ vs log$_{10}(r/R)$ profile](#b-log10t-vs-log10rr-profile)
+    - [a. $\\text{log}_{10}(\\rho)$ vs $\\text{log}_{10}(r/R)$ profile](#a-textlog10rho-vs-textlog10rr-profile)
+    - [b. $\\text{log}_{10}(T)$ vs $\\text{log}_{10}(r/R)$ profile](#b-textlog10t-vs-textlog10rr-profile)
     - [c. Mass $m(r)$ vs $r/R$ profile](#c-mass-mr-vs-rr-profile)
     - [d. Luminosity $l(r)$ vs $r/R$ profile](#d-luminosity-lr-vs-rr-profile)
     - [e. Mass fractions X, Y, Z vs $r/R$ profile](#e-mass-fractions-x-y-z-vs-rr-profile)
@@ -96,13 +96,13 @@ Final radius: 4.69e-01 R_sun
 
 Both the intial profile ($t = 1^{-5}$ years) and final profile ($t = 2^{10}$ years) are plotted for the following profiles:
 
-### a. log$_{10}(\rho)$ vs log$_{10}(r/R)$ profile
+### a. $\text{log}_{10}(\rho)$ vs $\text{log}_{10}(r/R)$ profile
    
   ![Density vs Radius](figures_as6/3_logrho_vs_logrR.png)
 
   The density of the star increases at the core due to the nuclear reactions happening in the core. The increase in density reduces as we move towards the outer layers of the star. THe star has contracted as the radius has decreased from 0.849 R_sun to 0.469 R_sun. The overall increase is thus justified.
 
-### b. log$_{10}(T)$ vs log$_{10}(r/R)$ profile
+### b. $\text{log}_{10}(T)$ vs $\text{log}_{10}(r/R)$ profile
    
   ![Temperature vs Radius](figures_as6/3_logT_vs_logrR.png)
 
