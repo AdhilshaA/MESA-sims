@@ -12,12 +12,12 @@ This repository contains the MESA star simulations and results for the P463/P763
   - [Table of Contents](#table-of-contents)
   - [Assignment 5](#assignment-5)
   - [Assignment 6](#assignment-6)
-    - [a. $\\text{log}_{10}(\\rho)$ vs $\\text{log}_{10}(r/R)$ profile](#a-textlog10rho-vs-textlog10rr-profile)
-    - [b. $\\text{log}_{10}(T)$ vs $\\text{log}_{10}(r/R)$ profile](#b-textlog10t-vs-textlog10rr-profile)
+    - [a. $\\text{log}(\\rho)$ vs $\\text{log}(r/R)$ profile](#a-textlogrho-vs-textlogrr-profile)
+    - [b. $\\text{log}(T)$ vs $\\text{log}(r/R)$ profile](#b-textlogt-vs-textlogrr-profile)
     - [c. Mass $m(r)$ vs $r/R$ profile](#c-mass-mr-vs-rr-profile)
     - [d. Luminosity $l(r)$ vs $r/R$ profile](#d-luminosity-lr-vs-rr-profile)
     - [e. Mass fractions X, Y, Z vs $r/R$ profile](#e-mass-fractions-x-y-z-vs-rr-profile)
-    - [f. (P$\_\\text{rad}$)/P vs $r/R$ profile](#f-p_textradp-vs-rr-profile)
+    - [f. ($P\_{\\text{rad}}$/P) vs $r/R$ profile](#f-p_textradp-vs-rr-profile)
     - [g. ($\\nabla - \\nabla\_{ad}$) vs $r/R$ profile](#g-nabla---nabla_ad-vs-rr-profile)
 
 ## Assignment 5
@@ -96,13 +96,13 @@ Final radius: 4.69e-01 R_sun
 
 Both the intial profile ($t = 1^{-5}$ years) and final profile ($t = 2^{10}$ years) are plotted for the following profiles:
 
-### a. $\text{log}_{10}(\rho)$ vs $\text{log}_{10}(r/R)$ profile
+### a. $\text{log}(\rho)$ vs $\text{log}(r/R)$ profile
    
   ![Density vs Radius](figures_as6/3_logrho_vs_logrR.png)
 
   The density of the star increases at the core due to the nuclear reactions happening in the core. The increase in density reduces as we move towards the outer layers of the star. THe star has contracted as the radius has decreased from 0.849 R_sun to 0.469 R_sun. The overall increase is thus justified.
 
-### b. $\text{log}_{10}(T)$ vs $\text{log}_{10}(r/R)$ profile
+### b. $\text{log}(T)$ vs $\text{log}(r/R)$ profile
    
   ![Temperature vs Radius](figures_as6/3_logT_vs_logrR.png)
 
@@ -131,11 +131,11 @@ Both the intial profile ($t = 1^{-5}$ years) and final profile ($t = 2^{10}$ yea
 
   The X and Y values are almost constant in the outer layers of the star as most of the nuclear reactions are happening in the core.
 
-### f. (P$_\text{rad}$)/P vs $r/R$ profile
+### f. ($P_{\text{rad}}$/P) vs $r/R$ profile
 
   ![Pressure vs Radius](figures_as6/3_Prad_div_P_vs_rR.png)
 
-  As the the temperature in low-mass stars is not high enough to generate large amounts of radiation pressure, the radiation pressure is negligible compared to the gas pressure. The order of values of (P$_\text{rad}$/P) is very small (order of $10^{-4}$) as expected.
+  As the the temperature in low-mass stars is not high enough to generate large amounts of radiation pressure, the radiation pressure is negligible compared to the gas pressure. The order of values of ($P_\text{rad}$/P) is very small (order of $10^{-4}$) as expected.
 
   <!-- The radiation pressure increases outside the core due to the radiation generated in the core. -->
 
