@@ -34,8 +34,9 @@ cool_wind_AGB_scheme = 'Blocker'
 Blocker_scaling_factor = 0.15d0
 ```
 
-<text style="color:red">The simulation failed for the above parameters failed (as discussed in the class). The simulation was done stop condition changed to:</text>
+<span style="color:red">The simulation failed to reach the He burning phase for the above parameters due to the low mass (discussed in the class). </span>
 
+The simulation was done stop condition changed to:
 ```fortran
 max_age = 50.0d9
 ```
